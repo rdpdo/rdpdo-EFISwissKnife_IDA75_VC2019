@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EFISwissKnife", "EFISwissKnife.vcxproj", "{57E0C06E-8B48-4FB5-91E7-EE2F534D126A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ABB526CE-6DB7-4F09-BB00-0819FD2AF7E9}"
+	ProjectSection(SolutionItems) = preProject
+		config.h = config.h
+		database.cpp = database.cpp
+		database.h = database.h
+		efi_guids.h = efi_guids.h
+		efi_pei_tables.h = efi_pei_tables.h
+		efi_system_tables.h = efi_system_tables.h
+		initial_checks.cpp = initial_checks.cpp
+		initial_checks.h = initial_checks.h
+		logging.cpp = logging.cpp
+		logging.h = logging.h
+		main.cpp = main.cpp
+		utlist.h = utlist.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57E0C06E-8B48-4FB5-91E7-EE2F534D126A}.Debug|x64.ActiveCfg = Debug|x64
+		{57E0C06E-8B48-4FB5-91E7-EE2F534D126A}.Debug|x64.Build.0 = Debug|x64
+		{57E0C06E-8B48-4FB5-91E7-EE2F534D126A}.Debug|x86.ActiveCfg = Debug|Win32
+		{57E0C06E-8B48-4FB5-91E7-EE2F534D126A}.Debug|x86.Build.0 = Debug|Win32
+		{57E0C06E-8B48-4FB5-91E7-EE2F534D126A}.Release|x64.ActiveCfg = Release|x64
+		{57E0C06E-8B48-4FB5-91E7-EE2F534D126A}.Release|x64.Build.0 = Release|x64
+		{57E0C06E-8B48-4FB5-91E7-EE2F534D126A}.Release|x86.ActiveCfg = Release|Win32
+		{57E0C06E-8B48-4FB5-91E7-EE2F534D126A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF62877C-F484-44AE-BC9C-D0C17E600D4B}
+	EndGlobalSection
+EndGlobal
